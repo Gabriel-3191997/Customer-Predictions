@@ -7,11 +7,11 @@ Automates the cleaning and preprocessing of raw telecommunication customer data.
 
 ## KeyPoints
 
-1. Tenure:  The number of months a customer has stayed with the company. With a very high concentration of brand-new customers (0–10 months) and a matching spike of highly loyal, long-term customers (over 65 months).
+1. Tenure:  Number of months a customer has stayed with the company. With a very high concentration of brand-new customers (0–10 months) and long-term customers (over 65 months).
    
-3. MonthlyCharges: The amount billed to the customer each month, showcasing a massive cluster of customers paying the bare minimum rate (around $20–$25 per month).
+3. MonthlyCharges: Amount billed to the customer each month, showcasing a massive cluster of customers paying the bare minimum rate (around $20–$25 per month).
    
-4. TotalCharges: The total revenue collected from each customer (tenure multiplied by MonthlyCharges).
+4. TotalCharges: Total revenue collected from each customer (tenure multiplied by MonthlyCharges).
 
 
 - Drops 15 operational and demographic columns to isolate core customer metrics
