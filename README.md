@@ -14,7 +14,6 @@ Automates the cleaning and preprocessing of raw telecommunication customer data.
 4. TotalCharges: Total revenue collected from each customer (tenure multiplied by MonthlyCharges).
 
 
-=============================
 
 
 
@@ -26,7 +25,7 @@ Automates the cleaning and preprocessing of raw telecommunication customer data.
 
 
 
-===========================
+
 
 #### Prerequisites
 
