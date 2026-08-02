@@ -17,10 +17,16 @@ Automates the cleaning and preprocessing of raw telecommunication customer data.
 =============================
 
 
+
+
 - Drops 15 operational and demographic columns to isolate core customer metrics
 - Identifies and eliminates identical data entries
 - Filters out incomplete rows to ensure data integrity
 
+
+
+
+===========================
 
 #### Prerequisites
 
