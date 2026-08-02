@@ -14,17 +14,11 @@ Automates the cleaning and preprocessing of raw telecommunication customer data.
 4. TotalCharges: Total revenue collected from each customer (tenure multiplied by MonthlyCharges).
 
 
-
-
-
+### Data Cleaning
 
 - Drops 15 operational and demographic columns to isolate core customer metrics
 - Identifies and eliminates identical data entries
 - Filters out incomplete rows to ensure data integrity
-
-
-
-
 
 
 #### Prerequisites
