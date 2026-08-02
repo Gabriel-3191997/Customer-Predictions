@@ -4,15 +4,27 @@
 
 Automates the cleaning and preprocessing of raw telecommunication customer data. It removes unnecessary demographic and feature columns, drops duplicate rows, handles missing values, and saves as a clean dataset for analytical or modeling use.
 
-## Features
+
+## KeyPoints
+
+1. Tenure:  The number of months a customer has stayed with the company. With a very high concentration of brand-new customers (0–10 months) and a matching spike of highly loyal, long-term customers (over 65 months).
+   
+3. MonthlyCharges: The amount billed to the customer each month, showcasing a massive cluster of customers paying the bare minimum rate (around $20–$25 per month).
+   
+4. TotalCharges: The total revenue collected from each customer (tenure multiplied by MonthlyCharges).
+
 
 - Drops 15 operational and demographic columns to isolate core customer metrics
 - Identifies and eliminates identical data entries
 - Filters out incomplete rows to ensure data integrity
 
-## Prerequisites
+
+#### Prerequisites
+
+`Python3`
 
 `pandas` 
+
 `matplotlib`
 
 
@@ -24,14 +36,15 @@ pip install pandas
 pip install matplotlib
 ```
 
-
 ## Dataset
 
  `telco-customer-churn.csv`
 
 [Reference]: (https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+
  
 ## Workflow
+
 
 1. Loads the raw CSV file into a pandas DataFrame
    
@@ -51,16 +64,18 @@ pip install matplotlib
    - `Churn`
      
 4. Drops duplicate records
-5. Filters out rows containing missing values (`NaN`).
-6. Overwrites `telco-customer-churn.csv` with the final, optimized dataset.
+  
+5. Filters out rows containing missing values (`NaN`)
+   
+6. Overwrites `telco-customer-churn.csv` as final, optimized dataset
 
-## Usage
 
-Run the script from your terminal or IDE:
 
-```bash
-python clean_churn_data.py
-```
+## Visualization
+
+
+
+
 
 ##### Note
 
