@@ -40,7 +40,7 @@ pip install matplotlib
 
  `telco-customer-churn.csv`
 
-[Reference]: (https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+![Reference](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
 
  
 ## Workflow
@@ -73,7 +73,7 @@ pip install matplotlib
 
 ## Visualization
 
-
+![Dash Board Screenshots](download.png)
 
 
 
