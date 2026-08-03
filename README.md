@@ -2,7 +2,7 @@
 
 # Telcommunication Customer's Predictions
 
-Automates the cleaning and preprocessing of raw telecommunication customer data. It removes unnecessary demographic and feature columns, drops duplicate rows, handles missing values, and saves as a clean dataset for analytical or modeling use.
+Automates the cleaning and preprocessing of raw telecommunication customer data. It removes unnecessary demographic and feature columns, drops duplicate rows, handles missing values, and saves as a clean dataset for analytical or modeling use showcasing ternues, monthly charge, total charges.
 
 
 ## KeyPoints
